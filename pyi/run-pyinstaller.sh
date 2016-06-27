@@ -14,9 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# PyInstaller .spec file for building the bundle.  This file is actually a
-# Python file,  which is run with various pre-defined variables.
-
 # This script is run inside the container to actually do the pyinstaller
 # build.
 
