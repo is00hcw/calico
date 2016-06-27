@@ -781,6 +781,3 @@ class TestEndpoint(BaseTestCase):
         # Log the whole diff if the comparison fails.
         self.maxDiff = None
         self.assertEqual(result, expected_result)
-
-
-

@@ -632,5 +632,3 @@ class TestConfig(unittest.TestCase):
         }
         self.assertRaises(ConfigException, load_config,
                           "felix_missing.cfg", host_dict=cfg_dict)
-
-

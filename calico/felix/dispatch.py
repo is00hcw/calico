@@ -351,4 +351,3 @@ class HostEndpointDispatchChains(_DispatchChains):
         return ['--append %s --jump RETURN --match comment '
                 '--comment "Unknown interface, return"' %
                 chain_name]
-

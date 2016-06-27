@@ -77,4 +77,3 @@ class TestMain(TestCase):
         m_sck = m_socket.return_value
         m_sck.connect.side_effect = RuntimeError()
         self.assertRaises(RuntimeError, main)
-

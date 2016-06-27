@@ -1055,4 +1055,3 @@ class TestEtcdStatusReporter(BaseTestCase):
         self.m_client.read.side_effect = self.failureException
         self.rep.clean_up_endpoint_statuses(async=True)
         self.step_actor(self.rep)
-

@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) 2016 Tigera, Inc. All rights reserved.
 # Copyright 2015 Metaswitch Networks
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,4 +22,3 @@ set -e
 # Coverage requires a full path.
 nosetests=$(which nosetests)
 coverage run --append --concurrency $1 "$nosetests" $2
-
